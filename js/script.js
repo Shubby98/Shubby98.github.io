@@ -6,7 +6,7 @@ $(window).on("load", function () {
 
     var $container = $('.items');
     $container.isotope({
-        filter: '*',
+        filter: '.photos',
         animationOptions: {
             duration: 1500,
             easing: 'linear',
@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Python Dev", "Machine Learning Dev", "Photographer"],
+        strings: ["Vlogger", "AI Developer", "Photographer", "Machine Learning Developer"],
         typeSpeed: 50,
         loop: true,
         startDelay: 400,
